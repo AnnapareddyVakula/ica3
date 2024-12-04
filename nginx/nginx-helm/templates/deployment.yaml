@@ -4,18 +4,18 @@ metadata:
   name: nginx-deployment
   namespace: {{ .Values.namespace }}
   labels:
-    id: C0912548       
+    id: C0911182       
     app: nginx
     env: dev
 spec:
   replicas: {{ .Values.replica }}
   selector:
     matchLabels:
-      id: C0912548
+      id: C0911182
   template:
     metadata:
       labels:
-        id: C0912548   
+        id: C0911182   
         app: nginx
         env: dev
     spec:

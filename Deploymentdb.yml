@@ -13,7 +13,7 @@ metadata:
   name: mariadb-config
   namespace: mariadb
   labels:
-        id: C0912548   # replace with your actual college ID
+        id: C0911182   # replace with your actual college ID
         app: nginx
         env: dev
 data:
@@ -29,7 +29,7 @@ metadata:
   name: mariadb-secret
   namespace: mariadb
   labels:
-        id: C0912548   # replace with your actual college ID
+        id: C0911182   # replace with your actual college ID
         app: nginx
         env: dev
 type: Opaque
@@ -46,7 +46,7 @@ metadata:
   name: mariadb
   namespace: mariadb
   labels:
-        id: C0912548   # replace with your actual college ID
+        id: C0911182   # replace with your actual college ID
         app: nginx
         env: dev
 spec:
@@ -95,7 +95,7 @@ metadata:
   name: mariadb
   namespace: mariadb
   labels:
-        id: C0912548   # replace with your actual college ID
+        id: C0911182   # replace with your actual college ID
         app: nginx
         env: dev
 spec:

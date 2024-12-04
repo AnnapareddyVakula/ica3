@@ -4,12 +4,12 @@ metadata:
   name: nginx-service
   namespace: nginx
   labels:
-    id: C0912548       # replace with your actual college ID
+    id: C0911182       # replace with your actual college ID
     app: nginx
     env: dev
 spec:
   selector:
-    id: c0904322
+    id: C0911182
   ports:
     - protocol: TCP
       port: 80

@@ -4,6 +4,6 @@ service:
   port: 8080
 replica: 1
 image:
-  repository: ankush97/ica3
+  repository: vakulaannapareddy/ica3
   tag: v2
   

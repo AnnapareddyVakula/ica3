@@ -3,7 +3,7 @@ kind: Namespace
 metadata:
   name: nginx
   labels:
-    id: C0912548       # replace with your actual college ID
+    id: C0911182       # replace with your actual college ID
     app: nginx
     env: dev
 
@@ -14,7 +14,7 @@ metadata:
   name: nginx-deployment
   namespace: nginx
   labels:
-    id: C0912548       # replace with your actual college ID
+    id: C0911182       # replace with your actual college ID
     app: nginx
     env: dev
 spec:
@@ -25,13 +25,13 @@ spec:
   template:
     metadata:
       labels:
-        id: C0912548   # replace with your actual college ID
+        id: C0911182   # replace with your actual college ID
         app: nginx
         env: dev
     spec:
       containers:
         - name: nginx
-          image: ankush97/ica3  # replace with your Docker image name
+          image: vakulaannapareddy/ica3  # replace with your Docker image name
           ports:
             - containerPort: 8080
 
@@ -43,7 +43,7 @@ metadata:
   name: nginx-service
   namespace: nginx
   labels:
-    id: C0912548       # replace with your actual college ID
+    id: C0911182       # replace with your actual college ID
     app: nginx
     env: dev
 spec:
